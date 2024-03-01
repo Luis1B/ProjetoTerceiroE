@@ -8,3 +8,7 @@
     --cor-de-texto3: #FFFFFF;
     --cor-de-listra: #6FFF57;
 }
+
+body{
+    background-color: var(--cor-de-fundo);
+}
