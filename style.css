@@ -30,3 +30,7 @@ body{
     font-size: 32px;
     color: var(--cor-de-texto3);
 }
+
+.titulo-principal span{
+    color: var(--cor-de-listra);
+}
