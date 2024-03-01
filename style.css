@@ -7,6 +7,8 @@
     --cor-de-texto2: #A43232;
     --cor-de-texto3: #FFFFFF;
     --cor-de-listra: #6FFF57;
+    --botao-inativo:rgba(58, 55, 94, 0.5)
+   
 }
 
 body{
@@ -30,7 +32,14 @@ body{
     font-size: 32px;
     color: var(--cor-de-texto3);
 }
-
 .titulo-principal span{
     color: var(--cor-de-listra);
+}
+.botao{
+    font-family: 'Chakra Petch, sans-serif';
+    background-color: var(--botao-inativo);
+    color: var(--cor-de-texto3);
+    display: flex;
+    justify-content: center;
+    padding: 1em;
 }
