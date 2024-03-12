@@ -7,8 +7,8 @@
     --cor-de-texto2: #A43232;
     --cor-de-texto3: #FFFFFF;
     --botao-ativo: #6FFF57;
-    --botao-inativo:rgba(58, 55, 94, 0.5)
-    --botao-ativo
+    --botao-inativo:rgba(58, 55, 94, 0.5);
+   
    
 }
 
@@ -54,8 +54,4 @@ body{
 }
 .botao:first-child{
     border-radius: 40px 0 0 0 ;
-}
-
-.botao:last-child{
-    border-radius: 0 40px 0 0;
 }
