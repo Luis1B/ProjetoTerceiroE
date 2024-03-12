@@ -6,8 +6,9 @@
     --cor-de-texto: #6E2D8C;
     --cor-de-texto2: #A43232;
     --cor-de-texto3: #FFFFFF;
-    --cor-de-listra: #6FFF57;
+    --botao-ativo: #6FFF57;
     --botao-inativo:rgba(58, 55, 94, 0.5)
+    --botao-ativo
    
 }
 
@@ -42,4 +43,12 @@ body{
     display: flex;
     justify-content: center;
     padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px solid var(--botao-ativo);
+    border-left: 2px solid var(--botao-ativo);
+    border-right: 2px solid var(--botao-ativo);
+    border-top: none;
+
 }
