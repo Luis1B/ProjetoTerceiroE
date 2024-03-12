@@ -62,7 +62,7 @@ body{
 }
 
 .ativo{
-    background-color: var(--cor-de-borda);
+    background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--cor-de-texto2);
 }
 @media screen and (min-width: 768px) { 
