@@ -34,7 +34,7 @@ body{
     color: var(--cor-de-texto3);
 }
 .titulo-principal span{
-    color: var(--cor-de-listra);
+    color: var(--botao-ativo)
 }
 .botao{
     font-family: 'Chakra Petch, sans-serif';
