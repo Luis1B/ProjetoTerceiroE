@@ -6,7 +6,8 @@
     --cor-de-texto: #6E2D8C;
     --cor-de-texto2: #A43232;
     --cor-de-texto3: #FFFFFF;
-    --botao-ativo: #6FFF57;
+    --cor-de-borda: #6FFF57;
+    --botao-ativo: #6a6597;
     --botao-inativo:rgba(42, 32, 66, 0.952);
    
    
@@ -46,9 +47,9 @@ body{
     font-size: 18px;
     align-items: center;
     width: 100%;
-    border-bottom: 4px solid var(--botao-ativo);
-    border-left: 2px solid var(--botao-ativo);
-    border-right: 2px solid var(--botao-ativo);
+    border-bottom: 4px solid var(--cor-de-borda);
+    border-left: 2px solid var(--cor-de-borda);
+    border-right: 2px solid var(--cor-de-borda);
     border-top: none;
 
 }
@@ -61,7 +62,7 @@ body{
 }
 
 .ativo{
-    background-color: var(--botao-ativo);
+    background-color: var(--cor-de-borda);
     border-bottom: 4px solid var(--cor-de-texto2);
 }
 @media screen and (min-width: 768px) { 
