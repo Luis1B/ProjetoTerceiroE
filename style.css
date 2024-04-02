@@ -50,6 +50,9 @@ body{
 .botao:first-child{
     border-radius: 40px 40px 0 0;
 }
+.botao:onclick{
+    background-color: antiquewhite;
+}
 .botoes{
     display: flex;
 }
