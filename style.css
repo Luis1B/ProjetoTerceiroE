@@ -18,6 +18,18 @@ body{
     color: var(--cor-de-texto3);
     font-family: 'Chakra Petch', sans-serif;
 }
+
+.botao {
+    background: linear-gradient(to bottom, var(--botao-ativo), var(--botao-inativo));
+    font-family: 'Chakra Peth', sans-serif;
+    color: red;
+}
+
+.botao:hover {
+    background: linear-gradient(to top, var(--botao-ativo) 20%, var(--botao-inativo) 75%);
+    
+}
+
 .conteudo-principal{
     display: flex;
     flex-direction: column;
