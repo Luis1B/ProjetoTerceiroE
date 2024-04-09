@@ -5,9 +5,9 @@
     --cor-de-fundo:#fdfa2b;
     --amarelo-escuro:#12146d;
     --parte-cabecalho:rgba(199, 43, 147, 0.5);
-    --ciano:rgba(155, 139, 48, 0.86);
+    --ciano:rgba(0, 60, 255, 0.86);
     --cor-relogio:rgb(238, 255, 0);
-    --cor-dia-hora:rgb(128, 107, 141);
+    --cor-dia-hora:rgb(127, 44, 179);
 }
 
 body {
