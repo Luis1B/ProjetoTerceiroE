@@ -1,19 +1,33 @@
-:root{
-    --cor-de-fundo:#ffe58f;
-    --cor-texto:#000000;
-    --cor-ativa:#ffee01;
-    --cor-inativo:#ffe15b;
-    --cor-aba:#fffd7c;
-    --cor-borda:#e2c231;
-    --cor-ativado:#000000;
+
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&display=swap');
+
+:root {
+    --cor-de-fundo:#634D65;
+    --amarelo-escuro:#00026e;
+    --parte-cabecalho:rgba(38, 0, 255, 0.5);
+    --ciano:rgba(85, 236, 200, 0.86);
+    --cor-relogio:rgb(238, 255, 0);
+    --cor-dia-hora:rgb(255, 0, 247);
 }
-body{
-    background-color: var(--cor-de-fundo);
-    font-family: "Archivo Black", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+
+body {
+    background: linear-gradient(to top, var(--amarelo-escuro) 20%, var(--parte-cabecalho) 75%,rgb(104, 31, 199) 85%);
+    margin: 0;
+    height: 100vh;
   }
-  .conteudo-principal{
+
+.botao {
+    background: linear-gradient(to bottom, var(--amarelo-escuro), var(--ciano));
+    font-family: 'Chakra Peth', sans-serif;
+    color: red;
+}
+
+.botao:hover {
+    background: linear-gradient(to top, var(--amarelo-escuro) 20%, var(--parte-cabecalho) 75%);
+    
+}
+
+.conteudo-principal {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,72 +36,92 @@ body{
     width: 100%;
     margin: 0 auto;
 }
-.titulo-principal span{
-    color: var(--cor-aba);
-}
-.titulo-principal{
+
+.titulo-principal {
     text-align: left;
     width: 100%;
     font-size: 32px;
-    
-    }
+}
+
+.titulo-principal span {
+    background: linear-gradient(to top, var(--amarelo-escuro) 20%, var(--parte-cabecalho) 75%);
+}
+
 .botao{
-    font-family: "Archivo Black", sans-serif;
-    background-color: var(--cor-borda);
-    color:var(--cor-texto);
+    font-family: 'Chakra Petch', sans-serif;
+    color: #FFFF;
     display: flex;
     justify-content: center;
     padding: 1em;
     font-size: 18px;
     align-items: center;
     width: 100%;
-    border-bottom: 4px solid var(--cor-ativa);
-    border-left: 2px solid var(--cor-ativa);
-    border-right: 2px solid var(--cor-ativa);
+    border-bottom: 4px solid var(--amarelo-escuro);
+    border-left: 2px solid var(--amarelo-escuro);
+    border-right: 2px solid var(--amarelo-escuro);
     border-top: none;
-    
-}
+    }
+   
 .botao:first-child{
-    border-radius: 40px 40px 0 0;
-}
-.botao:hover{
-    background-color: antiquewhite;
-}
-.botoes{
-    display: flex;
-}
-.ativo{
-    background-color: var(--cor-ativa);
-    border-bottom: 4px solid var(--cor-ativado);
-}
-.abas-textos{
-    background-color: var(--cor-inativo);
-    padding: 40px;
-    border-radius: 0 0 40px 40px;
-}
-.abas-conteudo-ativo{
+    border-radius: 40px 40px 0 0
+    }
+
+    .botoes{
     display: block;
-}
-.abas-conteudo{
-    display: none;
-}
-.abas-conteudo-titulo-principal{
-    font-size: 28px;
-    text-align: center;
-}
-.abas-conteudo-titulo-secundario{
-    text-align: center;
-    color: var(--cor-borda);
-    text-transform: uppercase;
-}
+    }
+
+    .ativo{
+         background-color: var(--botao-ativo);
+          border-bottom: 4px solid var(--verde);
+        }
+
+        .abas-textos{
+        background-color: var(--cor-de-fundo);
+        padding: 40px;
+        border-radius: 00 40px 40px;
+        }
+        .aba-conteudo.ativo{
+        display: block;
+        }
+        .aba-conteudo{
+        display: none;
+        }
+        .aba-conteudo-titulo-principal{
+        font-size: 28px;
+        text-align: center;
+        }
+        .aba-conteudo-titulo-secundario{
+        text-align: center;
+        color: var(--rosa);
+        text-transform: uppercase;
+        }
+
+
 @media screen and (min-width: 768px) {
     .botoes{
-        display: flex;
+    display: flex;
     }
-    .botao:first-child{
-        border-radius: 40px 0 0 0;
+
+.botao:first-child{
+    border-radius: 40px 0 0 0
     }
-    .botao:last-child{
-        border-radius: 0 40px 0 0;
+    
+.botao:last-child{
+    border-radius: 0 40px 0 0;
     }
 }
+.botao:hover {
+    color: #fff;
+    transition:5s;
+        transition: opacity 100ms linear;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+        
+  }
