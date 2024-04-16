@@ -12,8 +12,8 @@ for (let i = 0; i<botoes.length; i++) {
    textos[i].classList.add("ativo");
   }
 }
-const contadores = document.querySelectorAll
-const tempoObjetivo1 = new Date("2024-12-28T00:00:00")
+const contadores = document.querySelectorAll (".contador");
+const tempoObjetivo1 = new Date("2024-12-28T00:00:00");
 let tempoAtual = new Date();
 
 contadore[0].textContent = tempoObjetivo1 - tempoAtual;
